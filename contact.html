@@ -3,41 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
  <!-- Changed to contact -->
   <title>Contact</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Page name & navigation -->
-    <header>
-      <h1>Paul Jung</h1>
-    
-      <!-- Need to add links to nav list -->
+  <div class="header">
+    <div class="name">
+      <!-- lower name to fit -->
+      <div class="lower">
+        <h1>Paul Jung</h1>
+      </div>
       <nav>
         <ul>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
-    
       </nav>
-    </header>
-
+    </div>
+  </div>
+<div class="areaForm">
     <h2>Contact</h2>
-  <!-- Make form/need to update -->
-    <form>
-      Name<br>
-      <input type="text"><br>
-      Email<br>
-      <input type="text"><br>
-      Message<br>
-      <input type="text"><br>
-      <br>
-      <input type="submit" value="Submit">
-    </form>
+    <!-- old style form... -->
+  <form>
+    <div>
+      <label>Name</label><br>
+      <input type="text" placeholder="Your full name">
+    </div>
+    <div>
+      <label>Email</label><br>
+      <input type="text" placeholder="Email">
+    <div>
+      <label>Message</label><br>
+      <textarea></textarea>
+    </div>
+    <div class="button">
+      <button type="submit">Submit</button>
+    </div>
+    </div>
+</div>
 
-        <!-- Copyright added here for footer/make sticky folder!-->
-        <footer>Copyright &copy;</footer>
+
+
+<!-- add sticky footer -->
+<div class="footer">
+  <footer>Copyright &#169</footer>
+</div>
 </body>
 </html>

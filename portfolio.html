@@ -3,45 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Add portfolio titile -->
   <title>Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!-- Page name & navigation -->
-    <header>
-      <h1>Paul Jung</h1>
-    
-      <!-- Need to add links to nav list -->
+  <div class="header">
+    <div class="name">
+      <!-- lower name to fit -->
+      <div class="lower">
+        <h1>Paul Jung</h1>
+      </div>
       <nav>
         <ul>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
-       </nav>
-    </header>
-<!-- Added Portfolio here -->
-      <h2>Portfolio</h2>
-
-      <!-- Need to add text over image and placeholder links -->
-      <div class="row">
-        <img src="assets/images/cats-q-c-640-480-5.jpg">
-      </div>
+      </nav>
+    </div>
+  </div>
+<!-- Add Portfolio images here -->
+<div class="areaPort">
+     <h2>Portfolio</h2>
       <div class="column">
-        <img src="assets/images/technics-q-c-640-480-7.jpg">
-      </div>
-      <div>
-        <img src="assets/images/transport-q-c-640-480-6.jpg">
-      </div>
+        <div class="picture">
+          <div class="text">
+            <h4>Cats</h4>
+          </div>
+          <a href="#"><img src="assets/images/cats-q-c-640-480-5.jpg" /></a>
+        </div>
+        
+        <div class="picture">
+          <div class="text">
+            <h4>Sports</h4>
+          </div>
+          <a href="#"><img src="assets/images/sports-q-c-640-480-3.jpg" /></a>
+        </div>
+        
+        <div class="picture">
+          <div class="text">
+          <h4>Tech</h4>
+          </div>
+        <a href="#"><img src="assets/images/technics-q-c-640-480-7.jpg" /></a>
+        </div>
+       
+        <div class="picture">
+          <div class="text">
+            <h4>Transport</h4>
+          </div>
+         <a href="#"> <img src="assets/images/transport-q-c-640-480-6.jpg" /></a>
+        </div>
+       </div>
+</div>
 
-
-
-
-
-
-      <!-- Copyright added here for footer/make sticky folder!-->
-      <footer>Copyright &copy;</footer>
+  <!-- add sticky footer -->
+  <div class="footer">
+    <footer>Copyright &#169</footer>
+  </div>
 </body>
 </html>

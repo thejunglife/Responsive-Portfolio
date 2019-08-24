@@ -7,6 +7,7 @@
 body {
     margin: 0;
     background-image: url(../images/prism.png);
+
 }
 
 /* all pages */
@@ -20,6 +21,7 @@ body {
 .header {
     background: white;
     border-bottom: solid 2px #cccccc;
+
 }
 /* all pages */
 h1, h2 {
@@ -92,6 +94,7 @@ p {
     margin: auto;
     height: 350px;
     padding: 20px;
+    margin-top: 40px;
 }
 
 /* only for about me page */
@@ -113,6 +116,7 @@ p {
     margin: auto;
     height: 400px;
     padding: 20px;
+    margin-top: 40px;
     
 }
 
@@ -120,7 +124,7 @@ p {
 
 /* only for contact page */
 form {
-    width: auto
+    width: auto;
 }
 
 input {
@@ -162,6 +166,8 @@ button {
     margin: auto;
     height: 600px;
     padding: 20px;
+    overflow: auto;
+    margin-top: 40px;
 }
 /* only for portfolio */
     .column {
@@ -191,7 +197,6 @@ button {
 h4 {
     background-color: #4aaaa5;
     /* better look for now */
-    display: inline-blok;
     font-size: 30px;
     color: white;
     
@@ -205,12 +210,194 @@ h4 {
     padding-right: 10px;
 }
 
+/* media screens only below */
 
-@media only screen and (max-width: 860px) {
+
+@media screen and (max-width: 980px) {
+    /* for all pages */
     .header {
-        width: 400px;
+        width: 980px; 
+        
     }
+    
+    h1 {
+        margin-left: 40px;
+    }
+    
+    ul {
+        margin-right: 40px;
+    }
+    
+    
+    
+    
+    /*for about me page  */
+    .area {
+        width: 600px;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    
+    /* for port page only */
+    .areaPort {
+        width: 600px;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .column {
+        position: absolute;
+    }
+
+    /* for contact page only */
+
+    .areaForm {
+        width: 600px;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+
+
+
+
+
 }
 
+@media screen and (max-width: 768px) {
+    /* for all pages */
+    .header {
+        width: 768px; 
+        
+    }
+    
+    h1 {
+        margin-left: 20px;
+    }
+    
+    ul {
+        margin-right: 240px;
+    }
+
+    /*for about me page  */
+    .area {
+        width: 720px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    /* for port page only */
+    .areaPort {
+        width: 720px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+        height: 700px;
+    }
+
+    .column {
+        position: absolute;
+        width: 60%;
+    }
+
+    /* for contact page only */
+
+    .areaForm {
+        width: 720px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+      /* for all pages */
+    .header {
+        width: 640px; 
+        
+    }
+    .lower  {
+        position: relative;
+        background-color: #4aaaa5;
+        padding-bottom: 20px;
+    }
+    h1 {
+        margin-left: 204px;
+        width: 100%;
+        border: none;
+    }
+    
+    ul {
+        margin-right: 240px;
+    }
+
+    /*for about me page  */
+    .area {
+        width: 580px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+        height: 600px;
+    }
+
+    .biopic {
+        float: none;
+        margin: auto;
+    }
+
+    nav {
+        margin-top: 25px;
+        float: none;
+        margin-left: 171px;
+    }
+
+    /* for port page only */
+    .areaPort {
+        width: 580px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+        height: 600px;
+    }
+
+    .column {
+        position: relative;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* for contact page only */
+
+    .areaForm {
+        width: 580px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+        height: 600px;
+    }
+
+}
 
 

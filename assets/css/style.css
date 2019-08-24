@@ -292,7 +292,7 @@ h4 {
 
     /* for port page only */
     .areaPort {
-        width: 720px;
+        width: 690px;
         margin: 0;
         margin-left: 20px;
         margin-top: 40px;
@@ -301,7 +301,15 @@ h4 {
 
     .column {
         position: absolute;
-        width: 60%;
+        width: 100%;
+    }
+
+    .picture {
+        width: 40%;
+    }
+
+    img {
+        width: 100%;
     }
 
     /* for contact page only */
